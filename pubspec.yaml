@@ -1,0 +1,64 @@
+name: avtoraqam
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  
+  cupertino_icons: ^1.0.2
+  easy_localization: ^3.0.2
+  http: ^1.1.0
+  equatable: ^2.0.5
+  bloc: ^8.1.2
+  flutter_screenutil: ^5.9.0
+  flutter_bloc: ^8.1.3
+  mask_text_input_formatter: ^2.7.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/localization/ru-RU.json
+    - assets/localization/uz-UZ.json
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/rubik/Rubik-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/rubik/Rubik-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/rubik/Rubik-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/rubik/Rubik-Black.ttf
+          weight: 900
+    - family: RoadNumbers
+      fonts:
+        - asset: assets/fonts/roadnumber/roadnumbers.otf
+
+
+  
